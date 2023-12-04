@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/BACKGROUND\ MAIN.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    height: 52px;
+    width: 200px;
+    margin-bottom: 20px;
+    color: aliceblue; 
+   font-size: 25px;
+   font-family: Arial;
+}
+
+.ul{
+    height: 70px;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 30px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 12px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+   width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+text-box h1{
+    font: 200px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 32px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+nav.fa{
+    display: none;
+}
+
+
+
+/*------ course ------*/
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.h1{
+    font-size: 52px;
+    font-weight: 600;
+    height: 50px;
+}
+
+.p{
+    color: #777;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    line-height: 2.0;
+    
+}
+
+
+
+
+ /*------- SPHERE-------*/
+.GEO{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2.0;
+    font-size: 18px;
+    line-height: 2.0;
+}
+
+
+.ATMO{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2.0;
+    font-size: 18px;
+}
+
+.BIO{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2.0;
+    font-size: 18px;
+}
+
+.HYDRO{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2.0;
+    font-size: 18px;
+}
+
+.ABOUT-US{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/ABOUT\ US\ BACKGROUND.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.ABOUTUS{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.GEO-MAIN{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/GEOBACKGROUND.jpg);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.GEO{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ATMO-MAIN{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/FINAL-ATMOSPHERE.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.ATMO{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.BIO-MAIN{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/BIOSPHERE.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.BIO{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.HYDRO-MAIN{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/HYDROSPHERE\ BACKGROUND.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.HYDRO{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.KNOW-MAIN{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/EXPLORE-MORE-BACKGROUND.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Know-Text{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CONTACT-MAIN{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/ABOUT\ US\ BACKGROUND.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}

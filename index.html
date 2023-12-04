@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R164GDN1D2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R164GDN1D2');
+</script>
+        <meta name="vuewport" content="with=device-width, initial-scale=1.0">
+        <title>Know-It Sphere</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    </head>
+        <body>
+            <section class="header">
+                <nav>
+                    <h2 class="logo">Know-It Sphere</h2>
+                        <div class="nav-links" id="navlinks">
+                            <i class="fa fa-times" onclick="hideMenu"></i>
+                            <ul>
+                                <li><a href="home.html">HOME</a></li>
+                                <li><a href="aboutus.html">ABOUT US</a></li>
+                                <li><a href="GEO.html">GEO</a></li>
+                                <li><a href="atmo.html">ATMO</a></li>
+                                <li><a href="BIO.HTML">BIO</a></li>
+                                <li><a href="hydro.html">HYDRO</a></li>
+                                <li><a href="contact.html">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                     <i class="fa fa-bars" onclick="showMenu"></i>
+                </nav>
+<div class="text-box">
+    <h1>What is Know-It Sphere?</h1>
+    <p>In Know-It Sphere, we are able to venture deep down into the Science behind the unique subsystems our Earth holds; how they correlate to each other, how they affect one another, and how they are directly important to us humans. </p>
+    <a href="knowmore.html" class="hero-btn">Know More</a>
+</div>
+             </section>
+
+<!------JavaScript for Toggle Menu------> 
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+                function hideMenu(){
+                navLinks.style.right = "-20 0"
+            }  
+        </script>
+    </body>
+</html>
